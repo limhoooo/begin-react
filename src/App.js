@@ -2,6 +2,7 @@ import React from "react";
 import Hello from "./Hello";
 import Wrapper from "./wrapper";
 import Counter from "./Counter";
+import InputSample from "./InputSample";
 function App() {
 
   const name = 'reac111t';
@@ -21,6 +22,7 @@ function App() {
       <div style={style}>{name}</div>
       <div className="gray-box"></div>
       <Counter />
+      <InputSample />
     </div>
   );
 }
