@@ -26,6 +26,7 @@ function InputSample() {
             <input ref={nameInput} name="name" value={name} onChange={changeFnc} placeholder="이름" />
             <input name="nickname" value={nickname} onChange={changeFnc} placeholder="닉네임" />
             <button onClick={resetFnc}>초기화</button>
+
             <div>
                 <b>값 : </b>
                 {name} ({nickname})
